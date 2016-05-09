@@ -4,6 +4,7 @@
 ## This function is used to create a cache for the matrix and its inverse in global environment.
 ## It creates a special "matrix" object that can cache its inverse. This function returns a list of 4 other functions.
 
+
 makeCacheMatrix <- function(x = matrix()) 
 {
         inv<-NULL
